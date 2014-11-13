@@ -1,0 +1,82 @@
+body {
+  /*padding: 10px;*/
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+header a:hover {
+  text-decoration: underline;
+}
+div {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 14%;
+}
+
+div img {
+  width: 270px;
+  height: 95px;
+  margin: 5px;
+}
+
+header{
+  position: absolute;
+  top: 12px;
+  right: 30px;
+}
+
+
+.search-box {
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 572px;
+}
+.search-box input {
+  width: 100%;
+  border-color: #000000;
+  min-height: 15px;
+}
+.buttons {
+  display: inline;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width : 100%;
+  background:#f3f3f3;
+  padding-top:22px;
+  border-top: 1px solid #e9e9e9;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+footer .leftlinks {
+  position: relative;
+  bottom: 12px;
+  left: 18px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.rightlinks{
+  position: relative;
+  bottom: 12px;
+  right: 18px;
+  float: right;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
